@@ -1,5 +1,5 @@
 from send_slack import send_slack_notification
-from fetch_feed import twitter_feed
+from feeds.twitter import twitter_feed
 from utils import read_profiles_file, get_utc_date_now, delay_one_minute, compile_slack_tweet
 
 def pyslacknotify(list_twitter_users):
